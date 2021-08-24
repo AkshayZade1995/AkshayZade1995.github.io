@@ -23,6 +23,38 @@
     top: 210px; 
     font-weight: 400 !important;
 }
+
+.demo_changer .demo-icon{
+    cursor: pointer;
+    text-align:center;
+    background:#8980FE;
+    padding:2px;
+    float: right;
+    height: 40px;
+    line-height:40px;
+    width:41px;
+}
+
+.demo_changer_top{
+    z-index: 99;
+    position: fixed;
+    bottom: 20px;
+    right: 30px; 
+    font-weight: 400 !important;
+}
+
+.demo_changer .demo-icon-top{
+    cursor: pointer;
+    text-align:center;
+    background:#8980FE;
+    padding:2px;
+    float: right;
+    height: 40px;
+    line-height:40px;
+    width:41px;
+}
+
+
 .demoPanel {
 	position:relative;
 }
@@ -51,16 +83,8 @@
     color: #fff;
     font-size: 21px;
 }
-.demo_changer .demo-icon{
-    cursor: pointer;
-	text-align:center;
-    background:#8980FE;
-	padding:2px;
-    float: right;
-    height: 40px;
-	line-height:40px;
-    width:41px;
-}
+
+
 .demo_changer .form_holder {
 	background-color:#2F2F2F;
     cursor: pointer;

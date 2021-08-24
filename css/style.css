@@ -84,6 +84,10 @@ button:hover,
     border-color: #8980fe;
 }
 
+#topBtn {
+    display: none;
+}
+
 .ticker {
     overflow: hidden;
     height: 70px;
@@ -1942,7 +1946,7 @@ footer hr {
 	.btn-category { margin-bottom:5px; }
     .pricing-clients { width:90px; }
     #our-process .process-box { border-bottom:1px solid #2d2d2d; }
-    .modal-header .close { margin-right:-62px; }
+    .modal-header .close { margin-right:-32px; padding-top: 5px; }
     .breadcrumb-holder { padding:12px 0 12px 0; }
     .ticker { height:40px; }
     .ticker h1 { height:40px; }
