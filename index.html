@@ -1,0 +1,569 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Akshay Nitin Zade">
+	<meta name="description" content="Portfolio">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Akshay Zade</title>
+
+	<link rel="shortcut icon" href="images/header_icon.png" type="text/css" media="all" />
+
+	<!-- Royal Preloader CSS -->
+	<link href="css/royal_preloader.css" rel="stylesheet">
+
+	<!-- jQuery Files -->
+	<script type="text/javascript" src="ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+	<!-- Parallax File -->
+	<!-- <script type="text/javascript" src="js/parallax.min.js"></script> -->
+
+	<!-- Royal Preloader -->
+	<script type="text/javascript" src="js/royal_preloader.min.js"></script>
+	<script type="text/javascript">
+		Royal_Preloader.config({
+		    mode:           'number',
+		    showProgress:   true,
+		    background:     '#1d1d1d'
+		});
+	</script>
+
+	<!-- Stylesheets -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/ionicons.min.css" rel="stylesheet">
+	<link href="css/pe-icon-7-stroke.css" rel="stylesheet">
+	<link href="css/logoiconfont.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" title="main-css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<!-- Style Switcher / remove for production -->
+	<link href="css/style-switcher.css" rel="stylesheet">
+	
+	<!-- Alternate Stylesheets / choose what color and base you want and include the 2 files regularly AFTER style.css above -->
+	<link rel="alternate stylesheet" type="text/css" href="css/colors/blue.css" title="blue">
+	<link rel="alternate stylesheet" type="text/css" href="css/colors/green.css" title="green">
+	<link rel="alternate stylesheet" type="text/css" href="css/colors/orange.css" title="orange">
+	<link rel="alternate stylesheet" type="text/css" href="css/colors/red.css" title="red">
+	<link rel="alternate stylesheet" type="text/css" href="css/colors/orangelight.css" title="orangelight">
+	<link rel="alternate stylesheet" type="text/css" href="css/colors/pinkish.css" title="pinkish">
+	<link rel="alternate stylesheet" type="text/css" href="css/colors/seagul.css" title="seagul">
+	<link rel="alternate stylesheet" type="text/css" href="css/base-light.css" title="base-light">
+</head>
+<body class="royal_preloader" data-spy="scroll" data-target=".navbar" data-offset="70">
+	<div id="royal_preloader"></div>
+
+	<!-- Begin Color Toggle -->
+	<div class="demo_changer">
+	    <div class="demo-icon">
+	        <i class="pe-7s-settings"></i>
+	    </div>
+	    <div class="form_holder">
+	        <div class="row">
+	            <div class="col-sm-12">
+	                <div class="predefined_styles">
+	                	<h4>Base</h4>
+	                    <a href="" data-rel="main-css" class="styleswitch2"><div class="btn dark-css-square"></div></a>  
+	                    <a href="" data-rel="base-light" class="styleswitch2"><div class="btn light-css-square"></div></a>
+	                    <hr>
+	                    <h4>Colors</h4>
+	                    <a href="" data-rel="main-css" class="styleswitch"><div class="btn purple-css-square"></div></a>
+	                    <a href="" data-rel="blue" class="styleswitch"><div class="btn blue-css-square"></div></a>    
+	                    <a href="" data-rel="green" class="styleswitch"><div class="btn green-css-square"></div></a>
+	                    <a href="" data-rel="orange" class="styleswitch"><div class="btn orange-css-square"></div></a>
+	                    <a href="" data-rel="red" class="styleswitch"><div class="btn red-css-square"></div></a>
+	                    <a href="" data-rel="orangelight" class="styleswitch"><div class="btn orangelight-css-square"></div></a>
+	                    <a href="" data-rel="seagul" class="styleswitch"><div class="btn seagul-css-square"></div></a>
+	                    <a href="" data-rel="pinkish" class="styleswitch"><div class="btn pinkish-css-square"></div></a>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<!-- End Color Toggle -->
+	
+	<!-- Begin Navigation -->
+	<header>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand scroll-link" href="#home" data-id="home"><span class="pe-7s-home services-icon logo"></span></a>
+
+					</div>
+
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#home" data-id="home" class="scroll-link">Home</a></li>
+							<li><a href="#projects" data-id="projects" class="scroll-link">Projects</a></li>
+							<li><a href="#timeline" data-id="timeline" class="scroll-link">Timeline</a></li>
+							<li><a href="#about" data-id="about" class="scroll-link">About</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End Navigation -->
+	
+	<!-- Begin Home -->
+	<div class="jumbotron jumbotron-main" id="home">
+		<div id="particles-js"></div><!-- /.particles div -->
+		<div class="container center-vertically-holder">
+			<div class="center-vertically">
+				<div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 text-center">
+					<h1 class="scaleReveal">
+						Hola! I'm Akshay
+					</h1>
+					<hr class="bottomReveal">
+					<p class="bottomReveal">I love to code and build softwares that solve real world problems</p>
+					<a href="#ideology" data-id="ideology" class="scroll-link">
+						<div class="scroll-indicator rotateBottomReveal">
+							<span class="ion-mouse"></span><br>
+							<span class="ion-android-arrow-down arrow-scroll-indicator"></span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Home -->
+
+	<!-- Begin Projects -->
+	<section id="projects" class="background2 section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 section-title text-center">
+					<h2>Projects</h2>
+					<span class="section-divider"></span>
+				</div><!-- /.column -->
+			</div><!-- /.row -->
+
+			<div class="row">
+				<!-- Item 1 -->
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<div class="services-box leftReveal">
+						<span class="services-badge-new badge">New</span>
+						<span class="pe-7s-graph1 services-icon"></span>
+						<h3 class="service-name">Self Progress Tracker</h3>
+						<p class="text-small">Generic Simplified self track application via Timeline, Linear and Polynomial Regression Charts</p>
+						<button type="button" class="btn btn-default mt10" onclick="window.open('https://akshayzade1995.github.io/self-progress-tracker/', '_blank');">Publish</button>
+						<button type="button" class="btn btn-default mt10" onclick="window.open('https://github.com/AkshayZade1995/self-progress-tracker', '_blank');">Github</button>
+						<button type="button" class="btn btn-default mt10" data-toggle="modal" data-target="#item1-services">Info</button>
+					</div>
+				</div><!-- /.column -->	
+			    <!-- Item 1 Modal -->
+				<div class="modal fade" id="item1-services" tabindex="-1" role="dialog">
+				    <div class="modal-dialog">
+				        <div class="modal-content">
+				            <div class="modal-header">
+				                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="ion-ios-close-empty"></span>
+				                </button>
+				                <span class="pe-7s-graph1 services-icon-2"></span>
+				                <h4 class="service-title">Self Progress Tracker</h4>
+				            </div>
+				            <div class="modal-body">
+				                <h5 class="heading-1 modal-heading mb20">Description</h5>
+				                <p>Generic Simplified Application to track of what is decided? and what is achieved? via
+								implementation of Timeline, Linear Regression and Polynomial Regression Charts <br><b>Please refer complete description here</b> : <a href="https://github.com/AkshayZade1995/self-progress-tracker/blob/master/README.md" target="_blank"><span class="pe-7s-link services-icon-info-link logo">Link</span></a></p>
+				                <h5 class="heading-1 modal-heading mb20">Technology Stack</h5>
+				                <p>Javascript, Html, CSS</p>
+				                <h5 class="heading-1 modal-heading mb20">Publish Link</h5>
+				                <p class="no-margin-bottom"><a href="https://akshayzade1995.github.io/self-progress-tracker/" data-id="home"><span class="pe-7s-link services-icon-info-link logo">Github</span></a></p>
+				            </div>
+				        </div><!-- /.modal-content -->
+				    </div><!-- /.modal-dialog -->
+				</div><!-- /.modal -->
+
+				<!-- Item 2 -->
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mt30-xs">
+					<div class="services-box topReveal">
+						<span class="pe-7s-science services-icon"></span>
+						<h3 class="service-name">Bilateral Selection Sort</h3>
+						<p class="text-small">Modified Version of Selection Sort Algorithm which sorts the data faster than selection sort algorithm</p>
+						<button type="button" class="btn btn-default mt10" onclick="window.open('https://github.com/AkshayZade1995/Bilateral-Selection-Sort', '_blank');">Github</button>
+						<button type="button" class="btn btn-default mt10" onclick="window.open('https://www.ijraset.com/fileserve.php?FID=29996', '_blank');">Paper</button>
+						<button type="button" class="btn btn-default mt10" data-toggle="modal" data-target="#item2-services">Info</button>
+					</div>
+				</div><!-- /.column -->	
+			    <!-- Item 2 Modal -->
+				<div class="modal fade" id="item2-services" tabindex="-1" role="dialog">
+				    <div class="modal-dialog">
+				        <div class="modal-content">
+				            <div class="modal-header">
+				                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="ion-ios-close-empty"></span>
+				                </button>
+				                <span class="pe-7s-science services-icon-2"></span>
+				                <h4 class="service-title">Bilateral Selection Sort Algorithm</h4>
+				            </div>
+				            <div class="modal-body">
+				                <h5 class="heading-1 modal-heading mb20">Description</h5>
+				                <p>Bilateral Selection Sort Technique Sorts is the modified version of Selection Sort in terms of minimizing the number of iterations by selecting smallest and largest element and placing them in appropriate location.
+				                <h5 class="heading-1 modal-heading mb20">Publish Research Paper</h5>
+				                <p>Official Website <a href="https://www.ijraset.com/" data-id="home"><span class="pe-7s-link services-icon-info-link logo">Ijraset</span></a></p>
+
+				                <h5 class="heading-1 modal-heading mb20">Status</h5>
+				                <p><a href="https://www.ijraset.com/status.php" data-id="home"><span class="pe-7s-link services-icon-info-link logo">Link</span></a> Paper Id: IJRASET29996</p>
+
+				                <h5 class="heading-1 modal-heading mb20">Paper Link</h5>
+				                <p>Paper download <a href="https://www.ijraset.com/fileserve.php?FID=29996" data-id="home"><span class="pe-7s-link services-icon-info-link logo">Link</span></a></p>
+
+				                <h5 class="heading-1 modal-heading mb20">Certificate Link</h5>
+				                <p><a href="https://www.ijraset.com/print-certificate.php?member=29996" data-id="home"><span class="pe-7s-link services-icon-info-link logo">Link</span></a></p>
+
+				                <h5 class="heading-1 modal-heading mb20">Github</h5>
+				                <p><a href="https://github.com/AkshayZade1995/Bilateral-Selection-Sort" target="_blank"><span class="pe-7s-link services-icon-info-link logo">Link</span></a></p>
+
+				            </div>
+				        </div><!-- /.modal-content -->
+				    </div><!-- /.modal-dialog -->
+				</div><!-- /.modal -->
+
+				<!-- Item 3 -->
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mt30-sm mt30-xs">
+					<div class="services-box rightReveal">
+						<span class="pe-7s-leaf services-icon"></span>
+						<h3 class="service-name">NGO App</h3>
+						<p class="text-small">App to showcase NGO services Campaigns, Consulting, Volunteering, Go-Green, News.</p>
+						<button type="button" class="btn btn-default mt10" onclick="window.open('https://github.com/AkshayZade1995/ngo-app', '_blank');">Github</button>
+						<button type="button" class="btn btn-default mt10" data-toggle="modal" data-target="#item3-services">Info</button>
+						<button type="button" class="btn btn-default mt10" onclick="window.open('https://github.com/AkshayZade1995/ngo-app/blob/master/README.md', '_blank');">Screens</button>
+					</div>
+				</div><!-- /.column -->	
+			    <!-- Item 3 Modal -->
+				<div class="modal fade" id="item3-services" tabindex="-1" role="dialog">
+				    <div class="modal-dialog">
+				        <div class="modal-content">
+				            <div class="modal-header">
+				                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="ion-ios-close-empty"></span>
+				                </button>
+				                <span class="pe-7s-leaf services-icon-2"></span>
+				                <h4 class="service-title">NGO App</h4>
+				            </div>
+				            <div class="modal-body">
+				                <h5 class="heading-1 modal-heading mb20">Description</h5>
+				                <p>App to showcase NGO services Campaigns, Consulting, Volunteering, Go-Green, News. please read full article on github</p>
+				                <h5 class="heading-1 modal-heading mb20">Technology</h5>
+				                <p>Android Studio, Java, XML, Firebase, Material Design</p>
+				                <h5 class="heading-1 modal-heading mb20">Github</h5>
+				                <p class="no-margin-bottom"><p><a href="https://github.com/AkshayZade1995/ngo-app" target="_blank"><span class="pe-7s-link services-icon-info-link logo">Github</span></a></p></p>
+				                Info</button>
+				            </div>
+				        </div><!-- /.modal-content -->
+				    </div><!-- /.modal-dialog -->
+				</div><!-- /.modal -->
+
+				<!-- Item 4 -->
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mt30">
+					<div class="services-box leftReveal">
+						<!-- <span class="services-badge badge">New</span> -->
+						<span class="pe-7s-look services-icon"></span>
+						<h3 class="service-name">Image Cryptography</h3>
+						<p class="text-small">Encryption and Decryption of image using symmetric user secret key with DES Algorithm</p>
+						<button type="button" class="btn btn-default mt10" onclick="window.open('https://github.com/AkshayZade1995/image-cryptography', '_blank');">Github</button>
+						<button type="button" class="btn btn-default mt10" data-toggle="modal" data-target="#item4-services">Info</button>
+						<button type="button" class="btn btn-default mt10" onclick="window.open('https://github.com/AkshayZade1995/image-cryptography/blob/master/README.md', '_blank');">Screens</button>
+					</div>
+				</div><!-- /.column -->	
+			    <!-- Item 4 Modal -->
+				<div class="modal fade" id="item4-services" tabindex="-1" role="dialog">
+				    <div class="modal-dialog">
+				        <div class="modal-content">
+				            <div class="modal-header">
+				                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="ion-ios-close-empty"></span>
+				                </button>
+				                <span class="pe-7s-look services-icon-2"></span>
+				                <h4 class="service-title">Encryption of image and Decryption within only the software</h4>
+				            </div>
+				            <div class="modal-body">
+				                <h5 class="heading-1 modal-heading mb20">Description</h5>
+				                <p>Image Encryption using DES Algorithm with encrypts the image and stored in encryption format and can be Decryption via same appliation ONLY</p>
+				                <h5 class="heading-1 modal-heading mb20">Technology</h5>
+				                <p>Java | JFrame | JPanel </p>
+				                <h5 class="heading-1 modal-heading mb20">Publish Link</h5>
+				                <p class="no-margin-bottom"><a href="https://github.com/AkshayZade1995/image-cryptography"><span class="pe-7s-link services-icon-info-link logo">Github</span></a></p>
+				            </div>
+				        </div>
+				    </div>
+				</div><!-- /.modal -->
+
+				<!-- Item 5 -->
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mt30">
+					<div class="services-box bottomReveal">
+						<span class="pe-7s-display2 services-icon"></span>
+						<h3 class="service-name">Outcome Based Evaluation</h3>
+						<p class="text-small">Intranet College evaluation work and dynamic documentation via web forms to doc files</p>
+						<button type="button" class="btn btn-default mt10" onclick="window.open('https://github.com/AkshayZade1995/outcome-based-evaluation', '_blank');">Github</button>
+						<button type="button" class="btn btn-default mt10" data-toggle="modal" data-target="#item5-services">Info</button>
+						<button type="button" class="btn btn-default mt10" onclick="window.open('https://github.com/AkshayZade1995/outcome-based-evaluation/blob/master/README.md', '_blank');">Screens</button>
+					</div>
+				</div><!-- /.column -->	
+			    <!-- Item 5 Modal -->
+				<div class="modal fade" id="item5-services" tabindex="-1" role="dialog">
+				    <div class="modal-dialog">
+				        <div class="modal-content">
+				            <div class="modal-header">
+				                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="ion-ios-close-empty"></span>
+				                </button>
+				                <span class="pe-7s-display2 services-icon-2"></span>
+				                <h4 class="service-title">Outcome Based Evaluation</h4>
+				            </div>
+				            <div class="modal-body">
+				                <h5 class="heading-1 modal-heading mb20">Description</h5>
+				                <p>Purpose of this project was to easy task of documentation work. such as Teachers need to prepare documents with same structure as follows
+				                	<br>
+				                	<ul>
+				                		<li>Header | Footer</li>
+				                		<li>Same schema structure based docs</li>
+				                		<li>Create tables</li>
+				                		<li>Add Same values of content</li>
+				                		<li>Add table to existing docs</li>
+				                		<li>Correlation matrix refers to analysis of lecture conducted and class strength of understanding basis of exam paper set</li>
+				                	</ul>	
+									To overcome the following points the project was held. which reduce the teachers documentation time to mins.</p>
+				                <h5 class="heading-1 modal-heading mb20">Technology</h5>
+				                <p>PHP, JavaScript, Html, CSS</p>
+				                <h5 class="heading-1 modal-heading mb20">Github</h5>
+				                <p><a href="https://github.com/AkshayZade1995/outcome-based-evaluation" target="_blank"><span class="pe-7s-link services-icon-info-link logo">Link</span></a></p>
+				            </div>
+				        </div><!-- /.modal-content -->
+				    </div><!-- /.modal-dialog -->
+				</div><!-- /.modal -->
+
+				<!-- Item 6 -->
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 mt30">
+					<div class="services-box rightReveal">
+						<!-- <span class="services-badge badge">New</span> -->
+						<span class="pe-7s-users services-icon"></span>
+						<h3 class="service-name">Employee Crud Application</h3>
+						<p class="text-small">Employees Crud Application (Technology :- Spring Boot | Spring Framework | Maven | Java 8 | Spring Data JPA )</p>
+						<button type="button" class="btn btn-default mt10" data-toggle="modal" data-target="#item6-services">Info</button>
+						<button type="button" class="btn btn-default mt10" onclick="window.open('https://github.com/AkshayZade1995/springboot-crud-web-app', '_blank');">Github</button>
+					</div>
+				</div><!-- /.column -->	
+			    <!-- Item 6 Modal -->
+				<div class="modal fade" id="item6-services" tabindex="-1" role="dialog">
+				    <div class="modal-dialog">
+				        <div class="modal-content">
+				            <div class="modal-header">
+				                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="ion-ios-close-empty"></span>
+				                </button>
+				                <span class="pe-7s-users services-icon-2"></span>
+				                <h4 class="service-title">Employee Crud Application</h4>
+				            </div>
+				            <div class="modal-body">
+				                <h5 class="heading-1 modal-heading mb20">Description</h5>
+				                <p>Employee CRUD (Create, Read, Update, Delete) Application</p>
+				                <h5 class="heading-1 modal-heading mb20">Technology</h5>
+				                <p>Spring Boot | Spring Framework | Maven | Java 8 | Spring Data JPA</p>
+				            </div>
+				        </div><!-- /.modal-content -->
+				    </div><!-- /.modal-dialog -->
+				</div><!-- /.modal -->
+
+				<!-- Github Link -->
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt30">
+					<div id="hello-intro" class="pb60">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-5 col-sm-5">								
+									<h2 class="no-margin rotateLeftReveal"><span class="fa fa-github services-icon-1"></span>&nbsp;Hello World.</h2>
+								</div>
+								<div class="col-lg-10 col-sm-9 mt30-xs pt10">
+									<h3 class="no-margin rightReveal"><strong><a href="https://github.com/AkshayZade1995?tab=repositories" target="_blank">Click Me for Samples Of My Tiny World Experiments</a></strong>.</h3>
+								</div>
+							</div><!-- /.row -->
+						</div><!-- /.container -->
+					</div><!-- /.div -->
+				</div><!-- /.column -->	
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section><!-- /.section -->
+	<!-- End Projects -->
+
+
+	<!-- Begin Timeline -->
+	<section id="timeline" class="background1 section-padding-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 section-title text-center">
+					<h2>Timeline</h2>
+					<span class="section-divider"></span>
+				</div><!-- /.column -->
+			</div><!-- /.row -->
+			<div class="row">
+				<div class="col-lg-12">
+					<ul class="timeline pb80">
+
+						<!-- timeline 1 open -->
+						<li class="timeline-inverted">
+							<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive" src="images/timeline-1-Runtime-Solutions.jpg"></div>
+							<div class="timeline-panel rightReveal">
+								<div class="timeline-heading">
+									<h5 class="heading-1 mb15">2020</h5>
+									<h4 class="subheading"><strong>Full Stack Developer</strong></h4>
+									<h5 class="subheading">Runtime Solutions</h5>
+									<hr>
+								</div>
+								<div class="timeline-body">
+									<p>Backend Development and Basic Networking support. Worked on several Admin Web
+										CMS Portals built up on Frameworks and design patterns which deals on REST API's & SOAP Web Services and Android App Development which deals on RESTful API's services
+									</p>
+									<div>
+										<p><strong><u>Journey :</u></strong></p>
+										<ul>
+											<li>Android Developer (Java and XML)</li>
+											<li>REST API Developer</li>
+											<li>Web Developer Java (Struts) & Php (CodeIgnitor | Laravel)</li>
+											<li>Team Lead - Deployed Client Side </li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+						<!-- timeline 1 close -->
+
+						<!-- timeline 2 open -->
+						<!-- <li>
+							<div class="timeline-image scaleReveal"><img alt="" class="img-circle img-responsive" src="images/timeline-1.jpg"></div>
+							<div class="timeline-panel leftReveal">
+								<div class="timeline-heading">
+									<h5 class="heading-1 mb15">2017</h5>
+									<h4 class="subheading">Full Stack Developer</h4>
+								</div>
+								<div class="timeline-body">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+								</div>
+							</div>
+						</li> -->
+						<!-- timeline 2 close -->
+						
+					</ul>
+				</div><!-- /.column -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section><!-- /.section -->
+	<!-- End Timeline -->
+
+
+	<!-- Start About -->
+	<section id="about" class="background2 section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 section-title text-center">
+					<h2>About</h2>
+					<span class="section-divider"></span>
+				</div><!-- /.column -->
+			</div><!-- /.row -->
+			<div class="row">
+				<div class="col-sm-4">
+					<img alt="" src="images/about-image.JPG" class="img-responsive">
+					<div class="profile-box">
+						<ul class="list-unstyled">
+							<li><strong>Name:</strong> Akshay Zade</li>
+							<li><strong>Nationality:</strong> Indian</li>
+							<li><strong>Position:</strong> Full Stack Developer</li>
+							<li><strong>Phone:</strong> +91-7021334418</li>
+							<li><strong>Email:</strong> zadeakshay321@gmail.com</li>
+						</ul>
+					</div>
+				</div><!-- column -->
+				<div class="col-sm-8 mt30-xs">
+					<h5 class="heading-1 mb20">Intro</h5>
+					<h3 class="mb15 no-margin-top">Hi, my name is Akshay Zade</h3>
+					<p class="text-small text-switch">Love to build and work on backend process application that solve real world problems and I prefer not to work on UI Designing. Love Animals and activities i like Chess, Swimming, Volleyball, Drawning.<br><strong>Technology Stack</strong>: Java, Php, JavaScript, MySQL, PostGreSQL</p>
+					<span class="divider"></span>
+					<div class="row">
+						<!-- Item 1 -->
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bottomReveal">
+							<ul class="plan plan1">
+								<li class="plan-name"><strong>Education</strong></li>
+								<li class="plan-price">
+									<table style="width: 100%;" class="table">
+										<thead>
+											<td><li><strong>Year</strong></li></td>
+											<td><li><strong>Degree</strong></li></td>
+											<td><li><strong>College</strong></li></td>
+											<td><li><strong>CGPA/Percentage</strong></li></td>
+										</thead>
+										<tbody>
+											<tr>
+												<td>2017-2020</td>
+												<td>Masters Of Computer Application</td>
+												<td>Sardar Patel Institute Of Technology</td>
+												<td>7.68</td>
+											</tr>
+											<tr>
+												<td>2013-2016</td>
+												<td>Bachelors Of Computer Application</td>
+												<td>Shri Vinubhai Vrajlal Valia College</td>
+												<td>63.35%</td>
+											</tr>
+										</tbody>
+									</table>
+								</li>
+							</ul>
+						</div><!-- /.column -->
+						
+					</div>
+					<h5 class="heading-1 mt20 mb20">Skills</h5>
+					<div class="progress">
+						<div class="progress-bar text-left" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+							Development
+						</div>
+					</div>
+					<div class="progress">
+						<div class="progress-bar text-left" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+							Design
+						</div>
+					</div>
+					<div class="progress-meter">
+						<div class="meter meter-left" style="width: 33%;"><span class="meter-text">Beginner</span></div>
+						<div class="meter meter-left" style="width: 33%;"><span class="meter-text">Intermediate</span></div>
+		    			<div class="meter meter-right" style="width: 34%;"><span class="meter-text">Professional</span></div>
+					</div>
+				</div><!-- /.column -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section>
+	<!-- End About -->
+
+
+	<!-- Begin Footer -->
+	<footer class="footer-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8 col-sm-offset-2 text-center">
+					<a href="https://github.com/AkshayZade1995" target="_blank"><span class="ion-social-github social-icons-dark-hover mr15"></span></a>
+	                <a href="https://www.linkedin.com/in/akshay-zade-4811891a0/" target="_blank"><span class="ion-social-linkedin social-icons-dark-hover mr15"></span></a>
+	                <a href="https://www.facebook.com/nishant.zade.5" target="_blank"><span class="ion-social-facebook social-icons-dark-hover mr15"></span></a>
+	                <a href="mailto:zadeakshay321@gmail.com"><span class="ion-social-googleplus-outline social-icons-dark-hover"></span></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-8 col-sm-offset-2 text-small text-center">
+					<hr>
+					<button type="button" class="btn btn-primary btn-up-footer btn-lg scroll-top">Up</button>
+					<p class="no-margin">&copy; 2017-2021 Akshay Zade. All Rights Reserved</p>
+				</div><!-- /.column -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</footer>
+	<!-- Close Footer -->
+
+	<!-- Javascript Files -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/particles.min.js"></script>
+	<script type="text/javascript" src="js/particlesRun.js"></script>
+	<script type="text/javascript" src="js/jquery.mixitup.js"></script> <!-- load div animation -->
+	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script> <!-- menu mlick scroll js -->
+	<script type="text/javascript" src="js/scrollreveal.min.js"></script> <!-- scroll div reveal --> 
+	<script type="text/javascript" src="js/style-switcher.js"></script>  <!-- color change js -->
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
